@@ -1,15 +1,19 @@
+import whatsApp from "../../images/icon/whatsapp.png";
+import mail from "../../images/icon/mail.png";
+import git from "../../images/icon/github.svg";
+
 export default function Contacts() {
   return (
     <section className="contact">
       <div className="contacts_block">
         <a href="#!" className="contact_link">
-          <img src="../../images/icon/whatsapp.png" />
+          <img src={whatsApp} />
           <a href="tel:89203538313" className="contact_link_phone">
             +7 (920) 353 - 83- 13
           </a>
         </a>
         <a href="malto:zak90@inbox.ru" className="contact_link">
-          <img src="../../images/icon/mail.png" />
+          <img src={mail} />
           <a href="malto:zak90@inbox.ru" className="contact_link_phone">
             zak90@inbox.ru
           </a>
@@ -19,7 +23,7 @@ export default function Contacts() {
           target="_blank"
           className="contact_link"
         >
-          <img src="../../images/icon/github.svg" />
+          <img src={git} />
           <a
             target="_blank"
             href="https://github.com/AndreiZak90?tab=repositories3"

@@ -1,3 +1,6 @@
+import projLoft from "../../images/project_img/loft_house_prj.png";
+import projSup from "../../images/project_img/sup_prj.png";
+
 export default function MyWorks() {
   return (
     <>
@@ -5,11 +8,7 @@ export default function MyWorks() {
         <div className="works_block">
           <div className="works_block_item">
             <div className="works_block_item_block_img">
-              <img
-                src="../../images/project_img/loft_house_prj.png"
-                alt=""
-                className="works_block_item_img"
-              />
+              <img src={projLoft} className="works_block_item_img" />
             </div>
             <div className="works_block_box">
               <div className="works_block_box_link">
@@ -35,11 +34,7 @@ export default function MyWorks() {
           </div>
           <div className="works_block_item">
             <div className="works_block_item_block_img">
-              <img
-                src="../../images/project_img/sup_prj.png"
-                alt=""
-                className="works_block_item_img"
-              />
+              <img src={projSup} className="works_block_item_img" />
             </div>
             <div className="works_block_box">
               <div className="works_block_box_link">

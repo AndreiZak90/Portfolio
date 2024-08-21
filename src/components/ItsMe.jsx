@@ -1,3 +1,5 @@
+import meImg from "../../images/me.jpg";
+
 export default function ItsMe() {
   return (
     <>
@@ -17,7 +19,7 @@ export default function ItsMe() {
         </div>
         <div className="img_block">
           <div className="img_block_box">
-            <img src="../../images/me.JPG" alt="" className="img_me" />
+            <img src={meImg} alt="" className="img_me" />
           </div>
         </div>
       </section>
