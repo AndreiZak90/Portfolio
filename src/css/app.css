@@ -327,7 +327,7 @@ body {
 
 .works_block_item_block_img {
   max-width: 350px;
-  height: auto;
+  height: 230px;
   overflow: hidden;
   border-radius: 15px;
 }
@@ -337,6 +337,7 @@ body {
   object-fit: cover;
   filter: contrast(100%) brightness(1) saturate(1);
   transition: all 0.5s ease-in;
+  height: 230px;
 }
 
 .works_block_item_img:hover {
