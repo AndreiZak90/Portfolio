@@ -57,6 +57,36 @@ export default function MyWorks() {
                 Проект написан с помощью HTML и CSS
               </p>
             </div>
+            <div className="works_block_item">
+              <div className="works_block_item_block_img">
+                <img
+                  src="../../images/project_img/YouMeel.png"
+                  alt=""
+                  className="works_block_item_img"
+                />
+              </div>
+              <div className="works_block_box">
+                <div className="works_block_box_link">
+                  <a
+                    target="_blank"
+                    href="https://github.com/AndreiZak90/OrderFood"
+                    className="works_block_box_link_pages"
+                  >
+                    GitHub Pages
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/AndreiZak90/OrderFood"
+                    className="works_block_box_link_repo"
+                  >
+                    GitHub Repository
+                  </a>
+                </div>
+                <p className="works_block_box_link_text">
+                  Проект написан с помощью React, SCSS, Redux-Toolkit
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
