@@ -67,14 +67,14 @@ export default function MyWorks() {
               <div className="works_block_box_link">
                 <a
                   target="_blank"
-                  href="https://github.com/AndreiZak90/OrderFood"
+                  href="https://andreizak90.github.io/foodDelivery/"
                   className="works_block_box_link_pages"
                 >
                   GitHub Pages
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/AndreiZak90/OrderFood"
+                  href="https://github.com/AndreiZak90/foodDelivery"
                   className="works_block_box_link_repo"
                 >
                   GitHub Repository
